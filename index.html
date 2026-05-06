@@ -10,58 +10,90 @@
 </head>
 <body>
     
-    <header>
-        <div>
-            <span> <i class="fa-solid fa-bolt"></i> </span>
+    <header class="flex flex-col content-center justify-center bg-dark-blue h-16 w-full border-b border-b-white sticky top-0">
+        
+        <nav class="flex justify-between items-center p-6 lg:px-20">
 
-            <h2> Nexus </h2>
+            <div class="flex gap-2 items-center justify-center">
+              <span class="bg-light-blue rounded-md p-0.5"> <i class="fa-solid fa-bolt text-white"></i> </span>
 
-        </div>
+              <h2 class="text-white font-bold"> Nexus </h2>
 
-        <nav>
-            <ul>
+            </div>
+
+            <ul class="hidden">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Get Started</a></li>
             </ul>
+            <div>
+                <ul class="hidden">
+                   <li><a href="#">Get Started</a></li>
+                </ul>
+            </div>
 
             <!-- mobile -->
 
-            <div>
+            <div class="md:hidden">
                 <button>
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars text-white"></i>
                 </button>
            </div>
 
-            <ul>
+            <ul class="hidden md:flex text-white gap-2 justify-center lg:gap-8 flex-1 ">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Get Started</a></li>
             </ul>
+
+            <div class="hidden md:flex text-white bg-light-blue py-2 px-4 rounded-md">
+
+                <a href="#">Get Started</a>
+
+            </div>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div>
-                <div>
-                    <h1>Build Your <span>Digital</span> Future</h1>
+
+        <section class="bg-dark-blue">
+
+            <div 
+                class="h-200 w-auto flex flex-col gap-4 pt-10 px-4 text-white max-w-3xl  lg:max-w-6xl md:max-w-4xl md:flex-row justify-center items-center max-auto">
+
+                <div 
+                  class="flex flex-col gap-6 max-w-md">
+
+                    <h1 
+                      class="w-70 text-3xl font-bold whitespace-normal ">
+
+                        Build Your <span class="text-light-blue">Digital</span> Future
+
+                    </h1>
+
                     <p>
                         Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape 
                     </p>
+
+                    <button 
+                      class=" flex flex-col md:flex-row gap-4">
+
+                      <a href="#" class="bg-light-blue py-2   px-4 self-center rounded-md lg:py-2">
+
+                        Start Your Journey </a>
+
+                      <a href="#" class="border border-white/20 py-2 px-8 self-center rounded-md lg:py-2 ">
+                        
+                        Learn More </a>
+
+                    </button>
                 </div>
 
-                <div>
-                    <a href="#">Start Your Journey</a>
-                    <a href="#">Learn More </a>
-                </div>
-
-                <div>
-                    <img 
+                
+                <div class=" pt-5 lg:flex flex-col item-center justify-center h-full w-full max-w-1200 md:1400">
+                    <img class="h-100 w-100  "
                     src="./images/tailwind_img_1.jpeg" 
                     alt="A desktop image">
                 </div>
