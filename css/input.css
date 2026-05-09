@@ -7,3 +7,7 @@
     --color-light-blue: #3b82f6;
     --color-purple: #a855f7;
 }
+
+.card {
+    @apply bg-blue-shade border border-white/10 shadow-lg rounded-2xl flex flex-col gap-5 p-6 md:p-7 lg:p-8;
+}

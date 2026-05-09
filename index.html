@@ -58,33 +58,33 @@
 
     <main>
 
-        <section class="bg-dark-blue">
+        <section class="bg-dark-blue text-white px-4 py-12 md:px-8 lg:px-16">
 
-            <div 
-                class="h-200 w-auto flex flex-col gap-4 pt-10 px-4 text-white max-w-3xl  lg:max-w-6xl md:max-w-4xl md:flex-row justify-center items-center max-auto">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center"> 
 
                 <div 
                   class="flex flex-col gap-6 max-w-md">
 
                     <h1 
-                      class="w-70 text-3xl font-bold whitespace-normal ">
+                      class="text-4xl md:max-w-sm font-bold whitespace-normal ">
 
                         Build Your <span class="text-light-blue">Digital</span> Future
 
                     </h1>
 
-                    <p>
+                    <p class="text-base md:text-lg leading-relaxed text-white/80">
                         Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape 
                     </p>
 
                     <button 
-                      class=" flex flex-col md:flex-row gap-4">
+                      class=" flex flex-row gap-4 md:gap-8">
 
-                      <a href="#" class="bg-light-blue py-2   px-4 self-center rounded-md lg:py-2">
+                      <a href="#" class="bg-light-blue py-2   px-4 self-center whitespace-nowrap  rounded-md lg:py-2">
 
                         Start Your Journey </a>
 
-                      <a href="#" class="border border-white/20 py-2 px-8 self-center rounded-md lg:py-2 ">
+                      <a href="#" class="border border-white/20 py-2 px-8 self-center whitespace-nowrap rounded-md lg:py-2 ">
+                      
                         
                         Learn More </a>
 
@@ -92,8 +92,8 @@
                 </div>
 
                 
-                <div class=" pt-5 lg:flex flex-col item-center justify-center h-full w-full max-w-1200 md:1400">
-                    <img class="h-100 w-100  "
+                <div max-h-xl>
+                    <img class="w-full aspect-4/3 rounded-xl object-cover"
                     src="./images/tailwind_img_1.jpeg" 
                     alt="A desktop image">
                 </div>
@@ -101,76 +101,111 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <div>
-                    <h2>Our Services </h2>
-                    <p>
+        <section class="bg-blue-shade text-white px-4 py-12 md:px-8 lg:px-16">
+            
+            <div class=" max-w-6xl mx-auto flex-col gap-12">
+
+                <div class="text-center flex flex-col gap-4">
+
+                    <h2 class="font-bold text-3xl  md:text-4xl lg:text-5xl">Our Services </h2>
+
+                    <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white/80 ">
                         We provide comprehensive solution to help your business trive in the digital age
                     </p>
                 </div>
 
-                <div>
-                    <span> <i class="fa-solid fa-code"></i> </span>
-                    <h3> Web Development </h3>
-                    <p>
-                        Custom website and web applications built with morden technologies for optimal performance
-                    </p>
-                </div>
+                <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 mt-6">
+                   
+                    <div class="card">
 
-                <div>
-                    <span><i class="fa-solid fa-mobile-screen-button"></i></span>
-                    <h3>Mobile Apps </h3>
-                    <p>
-                        Native and cross-platfom mobile applications that deliver exceptional user experience 
-                    </p>
-                </div>
+                        <span class="bg-light-blue p-3 rounded-lg self-start"> <i class="fa-solid fa-code text-white"></i> </span>
 
-                <div>
-                    <span><i class="fa-solid fa-chart-line"></i></span>
-                    <h3> Digital Marketing </h3>
-                    <p>
-                        Strategic marketing campaign that boast your online presence and drive conversations
-                    </p>
-                </div>
+                        <h3 class="text-2xl md:text-3xl font-bold leading-tight"> Web Development </h3> 
+
+                        <p class="text-base md:text-lg leading-relaxed text-white/80"> 
+                            Custom website and web applications built with morden technologies for optimal performance
+                        </p>
+                    </div>
+
+                    <div class="card">
+
+                        <span class="bg-green-500 p-2 rounded-lg self-start"><i class="fa-solid fa-mobile-screen-button text-white"></i></span>
+                       
+                        <h3 class="text-2xl md:text-3xl font-bold leading-tight">Mobile Apps </h3>
+
+                        <p class="text-base md:text-lg leading-relaxed text-white/80">
+                            Native and cross-platfom mobile applications that deliver exceptional user experience 
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <span class="bg-purple rounded-lg self-start p-2"><i class="fa-solid fa-chart-line text-white"></i></span>
+                       
+                        <h3 class="text-2xl md:text-3xl font-bold leading-tight"> Digital Marketing </h3>
+                        
+                        <p class="text-base md:text-lg leading-relaxed text-white/80">
+                            Strategic marketing campaign that boast your online presence and drive conversations
+                        </p>
+                   </div>
+              </div>   
             </div>
         </section>
 
-        <section>
-            <div>
-                <div>
-                    <img 
+        <section class="bg-dark-blue text-white px-4 py-12 md:px-8 lg:px-16">
+
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-14 items-center">
+
+                <div class="max-h-xl">
+                    <img class="w-full aspect-4/3 rounded-xl object-cover"
                     src="./images/tailwind_img_2.jpeg" 
                     alt="An image of a tech working environment">
                 </div>
 
-                <div>
-                    <h2>About Nexus</h2>
-                    <p>
+                <div class="flex flex-col gap-6 md:gap-8 lg:gap-10">
+                    <h2  class="font-bold text-3xl  md:text-4xl lg:text-5xl">About Nexus</h2>
+                    
+                    <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white/80">
+
                         We are forward thinking-thinking technology company dedicated to helping business navigate the digital transformation journey. With years of experience and a passion for innovation, We deliver solutions that matter.
-                    </p>
-                </div>
-                <div>
-                    <span>150+</span>
-                    <p> 
-                        projects completed
+
                     </p>
 
-                    <span>98%</span>
-                    <p>
-                        Clients satisfaction
-                    </p>
+                    <div class="flex flex-col gap-2 md:flex-row gap-8 lg:gap-12">
+                        
+                        <div>
+                            <span class="text-light-blue font-bold"> 150+</span>
+                             
+                            <p>
+                              projects completed
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <span class="text-green-500 font-bold"> 98% </span>
+                             
+                            <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white/80">
+                              clients satisfaction
+                            </p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <div>
-                    <h2>Get in touch</h2>
+        <section class="bg-blue-shade text-white px-4 py-12 md:px-8 lg:px-16">
+            
+            <div class="max-w-6xl mx-auto flex flex-col gap-6 md:gap-8 lg:10">
+                
+                <div class="flex flex-col gap-4 text-center">
+
+                    <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl">Get in touch</h2>
+
                     <p>
                         Ready to start your project lets discuss how you can achieve your goals.
                     </p>
+
                 </div>
 
                 <div>
