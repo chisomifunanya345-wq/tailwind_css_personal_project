@@ -170,7 +170,7 @@
 
                     </p>
 
-                    <div class="flex flex-col gap-2 md:flex-row gap-8 lg:gap-12">
+                    <div class="flex flex-col md:flex-row gap-8 lg:gap-12">
                         
                         <div>
                             <span class="text-light-blue font-bold"> 150+</span>
@@ -184,8 +184,8 @@
                         <div>
                             <span class="text-green-500 font-bold"> 98% </span>
                              
-                            <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white/80">
-                              clients satisfaction
+                            <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white   80" >                                                                                                                                                                                                                                    clients satisfaction
+
                             </p>
 
                         </div>
@@ -202,45 +202,72 @@
 
                     <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl">Get in touch</h2>
 
-                    <p>
+                    <p class="max-w-xl mx-auto text-base md:text-lg leading-relaxed text-white/80 ">
+
                         Ready to start your project lets discuss how you can achieve your goals.
+                    
                     </p>
 
                 </div>
 
-                <div>
+                <div class=" bg-blue-shade border border-white/10 shadow-lg rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6 md:p-7 lg:p-8;">
 
-                    <div>
-                        <span><i class="fa-regular fa-envelope"></i></span>
-                        <span>hello@nexus.com</span>
+                    <div class="flex flex-col gap-6">
+                        <div>
+                            <span><i class="fa-regular fa-envelope text-light-blue"></i></span>
+                            <span>hello@nexus.com</span>
+                        </div>
 
-                        <span><i class="fa-solid fa-phone"></i></span>
-                        <span>+1(555)123-4567</span>
+                        <div>
+                            <span><i class="fa-solid fa-phone text-light-blue"></i></span>
+                            <span>+1(555)123-4567</span>
+                        </div>
 
-                        <span><i class="fa-solid fa-location-dot"></i></span>
-                        <span>123 Business Ave,Tech city</span>
+                        <div>
+                            <span><i class="fa-solid fa-location-dot text-light-blue"></i></span>
+                            <span>123 Business Ave,Tech city</span>
+                        </div>    
                     </div>
+                    
+                    <form class="flex flex-col gap-4">
+                        <div class=" bg-blue-shade border border-white/10 shadow-lg rounded-lg p-2">
+                          <input type="text" placeholder="Your Name">
+                        </div>
 
-                    <form>
-                        <input type="text" placeholder="Your Name">
+                        <div class=" bg-blue-shade border border-white/10 shadow-lg rounded-lg p-2">
+                          <input type="text" placeholder="Your Email">
+                        </div>
 
-                        <input type="text" placeholder="Your Email">
+                        <div class=" bg-blue-shade border border-white/10 shadow-lg rounded-lg p-2">
+                          <textarea name= "massage" id="message" rows="3"  placeholder="Your Message"></textarea>
+                        </div>
 
-                        <textarea name= "massage" id="message" rows="5"  placeholder="Your Message"></textarea>
+                        <div class=" bg-light-blue border border-white/10 shadow-lg rounded-lg p-2 text-center">
+                            <button>
+                                send message
+                            </button>
+                       </div>
+
                     </form>
-
-                    <button>
-                        send message
-                    </button>
+                    
+                    
                 </div>    
             </div>
         </section>
     </main>
 
-    <footer>
-        <div>
-            <span> <i class="fa-solid fa-bolt"></i></span>
-            <h2> Nexus </h2>
+    <footer class=" bg-blue-shade border border-white/10 shadow-lg text-white px-4 py-6 md:px-8 lg:px-16">
+
+        <div class="flex flex-row gap-6 justify-between items-center">
+        
+            
+            <div class="flex gap-2">
+
+                <span class="bg-light-blue rounded-md p-0.5"> <i class="fa-solid fa-bolt text-white"></i></span>
+
+                <h2> Nexus </h2>
+                
+            </div>
 
             <p>
                 &copy;2024 Nexus. All rights reserved 
